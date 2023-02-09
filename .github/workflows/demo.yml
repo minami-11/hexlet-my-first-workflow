@@ -5,6 +5,6 @@ jobs:
   demo_greet:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - name: Prints greet message in console
+      - uses: actions/checkout@v3
       - run: make say-hello
