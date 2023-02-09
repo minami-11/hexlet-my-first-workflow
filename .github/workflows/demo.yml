@@ -1,0 +1,9 @@
+name: Demo Workflow
+
+on: workflow_dispatch
+jobs:
+  demo_greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prints greet message in console
+        run: make say-hello
